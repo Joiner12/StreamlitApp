@@ -34,7 +34,8 @@ def main() -> None:
 
 if __name__ == "__main__":
     st.markdown(
-        f"<h2 style='text-align: center;'>我是你的饮食🍚助手</h2>",
+        "<h1 style='color: Peru'>我是你的饮食🍚助手</h1>",
         unsafe_allow_html=True,
     )
+    st.divider()
     main()
